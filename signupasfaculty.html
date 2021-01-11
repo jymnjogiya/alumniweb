@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <title>BVM Alumini</title>
+
+    <style>
+       .from-page
+       {
+        background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(119, 168, 224, 0.966);
+    overflow: hidden;
+    max-width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="image\BVMLogo.png" alt="" width="60" height="56">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Events
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="allevents.html">All Events</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="upcomingevent.html">Upcoming Events</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="pastevent.html">Past Events</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./story1.html">Stories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About us</a>
+            </li>
+          </ul>
+  
+          <a class="navbar" style="padding-left: 5px;" href="login.html">
+            <img src="image/user.png" alt="" width="38" height="30">
+          </a>
+        </div>
+      </div>
+    </nav>
+  
+
+  <div class="container mt-5">
+      
+      <div class="from-page">
+          
+    <div class="m-4">
+        <form class="row g-3 needs-validation">
+            <div class="col-md-4">
+              <label for="f01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="f01"  required>
+            </div>
+            <div class="col-md-4">
+              <label for="f02" class="form-label">Middle name</label>
+              <input type="text" class="form-control" id="f02">
+            </div>
+            <div class="col-md-4">
+              <label for="f03" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="f03" required>
+            </div>
+           
+
+            <div class="col-md-4">
+               <label for="email" class="form-label">Email id</label>
+              <div class="input-group has-validation">
+                <input type="email" class="form-control" id="email" aria-describedby="inputGroupPrepend" required>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="pass1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="pass1" required>
+            </div>
+            <div class="col-md-4">
+              <label for="pass2" class="form-label">Retype Password</label>
+              <div class="input-group has-validation">
+                <input type="password" class="form-control" id="pass2" aria-describedby="inputGroupPrepend" required>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+                <label for="f04" class="form-label">Tell us about yourself</label>
+                <input type="text" class="form-control" id="f04">
+              </div>
+              <div class="col-md-4">
+                <label for="f05" class="form-label">Birth date</label>
+                <input type="date" class="form-control" id="f05" required>
+              </div>
+              <div class="col-md-4">
+                <label for="f06" class="form-label">Mobike Number</label>
+                <div class="input-group has-validation">
+                  <input type="number" class="form-control" id="f06" aria-describedby="inputGroupPrepend" required>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <label for="f07" class="form-label">Gender</label>
+                <select class="form-select" id="f07">
+                  <option selected disabled value="">Choose...</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+              </div>
+              <div class="col-md-3">
+                <label for="f08" class="form-label">Marrital status</label>
+                <select class="form-select" id="f08">
+                    <option selected disabled value="">Choose...</option>
+                    <option value="unmarried">Unmarried</option>
+                    <option value="married">Married</option>
+                  </select>
+                </select>
+              </div>
+              <div class="col-md-3">
+                <label for="f09" class="form-label">Department</label>
+                <input type="text" class="form-control" id="f09" required>
+              </div>
+              <div class="col-md-3">
+                <label for="f16" class="form-label">Joining date</label>
+                <input type="date" class="form-control" id="f16" required>
+              </div>
+
+            
+            <h5 class="form-label">Current Addess</h5>
+            <div class="col-md-6">
+              <label for="f10" class="form-label">Addrees</label>
+              <input type="text" class="form-control" id="f10">
+            </div>
+            <div class="col-md-3">
+              <label for="f11" class="form-label">State</label>
+              <select class="form-select" id="f11">
+                <option selected disabled value="">Choose...</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="f12" class="form-label">Zip</label>
+              <input type="number" class="form-control" id="f12" required>
+            </div>
+            
+            <h5 class="form-label">Permenant Address</h5>
+            <div class="col-md-6">
+                <label for="f13" class="form-label">address</label>
+                <input type="text" class="form-control" id="f13">
+              </div>
+              <div class="col-md-3">
+                <label for="f14" class="form-label">State</label>
+                <select class="form-select" id="f14">
+                  <option selected disabled value="">Choose...</option>
+                </select>
+              </div>
+              <div class="col-md-3">
+                <label for="f15" class="form-label">Zip</label>
+                <input type="number" class="form-control" id="f15" required>
+              </div>
+
+
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+          </div>
+      </div>
+  </div>
+ <!-- footer -->
+ <footer class="footer-distributed">
+
+  <div class="footer-left">
+
+    <h3>BVM<span>engineering</span></h3>
+
+    <p class="footer-links">
+      <a href="index.html">Home</a>
+      ·
+      <a href="blog.html">Blog</a>
+      ·
+      <a href="#">About</a>
+      ·
+      <a href="#">Contact</a>
+    </p>
+  </div>
+
+  <div class="footer-center">
+
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>BVM Engineering College, Vallabh Vidyanagar - 388 120.</span> GUJARAT, INDIA.</p>
+    </div>
+
+    <div>
+      <i class="fa fa-phone"></i>
+      <p>02692-230-104</p>
+    </div>
+
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="mailto:principal@bvmengineering.ac.in">principal@bvmengineering.ac.in</a></p>
+    </div>
+
+  </div>
+
+  <div class="footer-right">
+
+    <p class="footer-company-about">
+      <span>Our social sites</span>
+    </p>
+
+    <div class="footer-icons">
+
+      <a href="https://www.instagram.com/bvm_alumni/"><i class="fa fa-instagram"></i></a>
+      <a href="https://twitter.com/AlumniBvm"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/bvm-alumni-association-7665081a9/"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/AlumniBVM/"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.youtube.com/channel/UCwDKqVYQldD-0hlxUxYR6eQ"><i class="fa fa-youtube"></i></a>
+
+    </div>
+
+  </div>
+
+</footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+    </script>
+  </body>
+</html>
